@@ -2,16 +2,23 @@
 body{
 	background-image: url('../grey.jpg');
 }
+
+
+/* index */
+
+/* header*/
+#div1{ 
+	height:100px;
+	margin:20px;
+	padding: 10px 20px 10px 20px;
+	font-family: 'Economica', sans-serif;
+}
+
 #text{
 
-	font-size: 20px;
-	font-family: 'Rock Salt', cursive;
+	font-size: 50px;
 	text-align: center;
-}
-#text2{
-	font-size: 20px;
-	font-family: 'Rock Salt', cursive;
-	text-align: center;
+	font-family: 'Economica', sans-serif;
 }
 #bar{
 	background-color:black;
@@ -20,16 +27,24 @@ body{
 	margin-right: 350px;
 }
 
-.article1{
-	margin: 20px;
-	display: inline-block;
-    text-align: center;
+#text2{
+	font-size: 30px;
+	font-family: 'Satisfy', cursive;
+	text-align: center;
 }
 
-#div1{ 
-	height:100px;
-	margin:20px;
+/* images*/
+
+#sec1{
+	height:50px;
+	margin-right:100px;
+	margin-left: 100px;
 	padding: 10px 20px 10px 20px;
+	font-family: 'Economica', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	 border-style: solid;
+    border-width: 5px;
 }
 
 #img{
@@ -69,6 +84,8 @@ body{
 	background-size: 100% 100%;
 }
 
+/* links */
+
 nav {
     display: inline-block;
     text-align: center;
@@ -99,13 +116,8 @@ a:link, a:visited {
     font-size: 25px;
 }
 
-header{
-	font-family: 'Rock Salt', cursive;
-	height:200px;
-	width:100px;
-	font-size:25px;
-	color: white;
-	padding:30px 30px 30px 40px;
-	margin:10px 100px 10px 20px;
-	display: block;
-};
+.article1{
+	margin: 20px;
+	display: inline-block;
+    text-align: center;
+}
