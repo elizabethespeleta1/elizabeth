@@ -1,27 +1,111 @@
+
 body{
-	background-color: lime;
+	background-image: url('../grey.jpg');
+}
+#text{
+
+	font-size: 20px;
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+}
+#text2{
+	font-size: 20px;
+	font-family: 'Rock Salt', cursive;
+	text-align: center;
+}
+#bar{
+	background-color:black;
+	height:2px;
+	margin-left: 350px; 
+	margin-right: 350px;
 }
 
-
-
-#article1{
+.article1{
 	margin: 20px;
-	 display: inline-block;
+	display: inline-block;
     text-align: center;
+}
+
+#div1{ 
+	height:100px;
+	margin:20px;
+	padding: 10px 20px 10px 20px;
+}
+
+#img{
+	background-image: url('../catdoe.jpg');
+	height: 300px;
+	width:300px;
+	background-repeat: no-repeat;
+	margin-left: 80px;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+
+#img2{
+	background-image: url('../oceanpls.jpg');
+	height: 300px;
+	width:300px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+
+#img3{
+	background-image: url('../freeway1.jpg');
+	height: 300px;
+	width:300px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+
+#img4{
+	background-image: url('../blind.jpg');
+	height: 300px;
+	width:300px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-size: 100% 100%;
 }
 
 nav {
     display: inline-block;
     text-align: center;
+    color: #FFFFFF;
+    font-family: 'Amatic SC', cursive;
 }
 
 ul{
+	color: #FFFFFF;
 	list-style-type: none;
+	padding:0px 0px 0px 450px;
+	font-family: 'Amatic SC', cursive;
 }
 
 li {
+	color: #FFFFFF;
 	display: inline-block;
     text-align: center;
-    margin-right: 10px;
-    
+    margin: 15px;
+   font-family: 'Amatic SC', cursive;
 }
+
+a:link, a:visited {
+    font-family: 'Amatic SC', cursive;
+    padding:10px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+header{
+	font-family: 'Rock Salt', cursive;
+	height:200px;
+	width:100px;
+	font-size:25px;
+	color: white;
+	padding:30px 30px 30px 40px;
+	margin:10px 100px 10px 20px;
+	display: block;
+};
