@@ -6,7 +6,7 @@ body{
 
 /* index */
 
-/* header*/
+/* header */
 #div1{ 
 	height:100px;
 	margin:20px;
@@ -15,11 +15,11 @@ body{
 }
 
 #text{
-
 	font-size: 50px;
 	text-align: center;
 	font-family: 'Economica', sans-serif;
 }
+
 #bar{
 	background-color:black;
 	height:2px;
@@ -33,26 +33,13 @@ body{
 	text-align: center;
 }
 
-/* images*/
-
-#sec1{
-	height:50px;
-	margin-right:100px;
-	margin-left: 100px;
-	padding: 10px 20px 10px 20px;
-	font-family: 'Economica', sans-serif;
-	font-size: 30px;
-	text-align: center;
-	 border-style: solid;
-    border-width: 5px;
-}
-
+/* images index*/
 #img{
 	background-image: url('../catdoe.jpg');
 	height: 300px;
 	width:300px;
 	background-repeat: no-repeat;
-	margin-left: 80px;
+	margin:0px 0px 0px 280px;
 	display: inline-block;
 	background-size: 100% 100%;
 }
@@ -84,33 +71,55 @@ body{
 	background-size: 100% 100%;
 }
 
+/* quote */
+#sec1{
+	height:50px;
+	width:;
+	margin-right:100px;
+	margin-left: 100px;
+	padding: 10px 20px 10px 20px;
+	font-family: 'Economica', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	 border-style: solid;
+    border-width: 5px;
+}
+
+
+
 /* links */
 
-nav {
+.nav1 {
     display: inline-block;
     text-align: center;
     color: #FFFFFF;
     font-family: 'Amatic SC', cursive;
+    font-size: 25px;
 }
 
-ul{
+.ul1{
 	color: #FFFFFF;
 	list-style-type: none;
 	padding:0px 0px 0px 450px;
+	margin:10px 10px 10px 190px;
 	font-family: 'Amatic SC', cursive;
+	font-size: 25px;
+	text-align: center;
 }
 
-li {
+.li1 {
 	color: #FFFFFF;
 	display: inline-block;
     text-align: center;
     margin: 15px;
    font-family: 'Amatic SC', cursive;
+   font-size: 25px;
 }
 
 a:link, a:visited {
     font-family: 'Amatic SC', cursive;
     padding:10px;
+    text-align: center;
     text-decoration: none;
     color: black;
     font-size: 25px;
@@ -118,6 +127,31 @@ a:link, a:visited {
 
 .article1{
 	margin: 20px;
+	font-size: 25px;
 	display: inline-block;
     text-align: center;
 }
+
+
+
+/* about me text */
+
+#sec2{
+	
+	height:150px;
+	
+	margin: 20px 100px 20px 100px;
+	padding: 10px 20px 10px 20px;
+	font-family: 'Economica', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	border-style: solid;
+    border-width: 5px;
+}
+
+#textpls{
+	font-size: 20px;
+	padding:10px;
+	text-align: center;
+	font-family: 'Economica', sans-serif;
+};
