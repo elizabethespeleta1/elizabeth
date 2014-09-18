@@ -1,10 +1,101 @@
 
+
 body{
-	background-image: url('../grey.jpg');
+	background-image:url('../grey.jpg');
+}
+/* links*/
+
+.nav1 {
+    display: inline-block;
+    text-align: center;
+    padding: 0px 70px 15px 70px;
+    color: #FFFFFF;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+
+}
+
+.ul1{
+	color: #FFFFFF;
+	list-style-type: none;
+	padding:0px 0px 0px 275px;
+	margin:20px 100px 25px 120px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	text-align: center;
+}
+
+.li1 {
+	color: #FFFFFF;
+	display: inline-block;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    margin: 10px 10px 15px 10px;
+}
+
+.ayee {
+    font-family: 'Amatic SC', cursive;
+    padding:3px 4px 13px 4px;
+    margin-top:15px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.article1{
+	
+	display: inline-block;
+    text-align: center;
 }
 
 
-/* index */
+
+/* index links */
+
+#nav {
+    display: inline-block;
+    padding: 0px 20px 10px 20px;
+    color: #FFFFFF;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+
+}
+
+#ul{
+	color: #FFFFFF;
+	list-style-type: none;
+	margin:30px 180px 0px 120px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	
+}
+
+#li {
+	color: #FFFFFF;
+	display: inline-block;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    margin: 10px;
+}
+
+#aye {
+    font-family: 'Amatic SC', cursive;
+    padding:10px;
+    
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+
+#article{
+	font-size: 25px;
+	display: inline-block;
+    text-align: center;
+}
+
 
 /* header */
 #div1{ 
@@ -23,8 +114,9 @@ body{
 #bar{
 	background-color:black;
 	height:2px;
-	margin-left: 350px; 
-	margin-right: 350px;
+	width:580px;
+	margin-left: 150px; 
+	
 }
 
 #text2{
@@ -36,27 +128,29 @@ body{
 /* images index*/
 #img{
 	background-image: url('../catdoe.jpg');
-	height: 300px;
-	width:300px;
+	height: 250px;
+	width:225px;
+	margin-top:20px;
 	background-repeat: no-repeat;
-	margin:0px 0px 0px 280px;
 	display: inline-block;
 	background-size: 100% 100%;
 }
 
 #img2{
 	background-image: url('../oceanpls.jpg');
-	height: 300px;
-	width:300px;
+	height: 250px;
+	width:225px;
+	margin-top:20px;
 	background-repeat: no-repeat;
-	display: inline-block;
 	background-size: 100% 100%;
+	display: inline-block;
 }
 
 #img3{
 	background-image: url('../freeway1.jpg');
-	height: 300px;
-	width:300px;
+	height: 250px;
+	width:225px;
+	margin-top:20px;
 	background-repeat: no-repeat;
 	display: inline-block;
 	background-size: 100% 100%;
@@ -64,12 +158,19 @@ body{
 
 #img4{
 	background-image: url('../blind.jpg');
-	height: 300px;
-	width:300px;
+	height: 250px;
+	width:225px;
+	margin-top:20px;
 	background-repeat: no-repeat;
 	display: inline-block;
 	background-size: 100% 100%;
 }
+
+
+
+
+
+/* about me */
 
 /* quote */
 #sec1{
@@ -85,57 +186,7 @@ body{
     border-width: 5px;
 }
 
-
-
-/* links */
-
-.nav1 {
-    display: inline-block;
-    text-align: center;
-    color: #FFFFFF;
-    font-family: 'Amatic SC', cursive;
-    font-size: 25px;
-}
-
-.ul1{
-	color: #FFFFFF;
-	list-style-type: none;
-	padding:0px 0px 0px 450px;
-	margin:10px 10px 10px 190px;
-	font-family: 'Amatic SC', cursive;
-	font-size: 25px;
-	text-align: center;
-}
-
-.li1 {
-	color: #FFFFFF;
-	display: inline-block;
-    text-align: center;
-    margin: 15px;
-   font-family: 'Amatic SC', cursive;
-   font-size: 25px;
-}
-
-a:link, a:visited {
-    font-family: 'Amatic SC', cursive;
-    padding:10px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-size: 25px;
-}
-
-.article1{
-	margin: 20px;
-	font-size: 25px;
-	display: inline-block;
-    text-align: center;
-}
-
-
-
-/* about me text */
-
+/* text */
 #sec2{
 	
 	height:150px;

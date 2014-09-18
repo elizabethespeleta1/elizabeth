@@ -1,0 +1,72 @@
+
+
+/* mobile responsive*/
+
+#container{
+	width:960px;
+	margin:0px auto;
+}
+
+@media screen and (max-width:959px){
+
+#container{
+	width:100%;
+}
+
+#nav{
+	width:100%;
+}
+
+#ul{
+	width:100%;
+}
+
+#div1{
+	width:100%;
+}
+
+#sec{
+	width:100%;
+}
+
+}
+
+
+@media screen and (max-width:320px){
+#container{
+	width:100%;
+}
+
+#nav{
+	width:100%;
+}
+
+#ul{
+	width:100%;
+}
+
+#div1{
+	width:100%;
+}
+
+/* images index*/ 
+#sec{
+	width:100%;
+
+#img{
+	width:100%;
+}
+
+#img2{
+	width:100%;
+}
+
+#img3{
+	width:100%;
+}
+
+#img4{
+	width:100%;
+}
+
+}
