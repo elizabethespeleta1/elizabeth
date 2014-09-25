@@ -175,7 +175,6 @@ body{
 /* quote */
 #sec1{
 	height:50px;
-	width:;
 	margin-right:100px;
 	margin-left: 100px;
 	padding: 10px 20px 10px 20px;
@@ -184,6 +183,7 @@ body{
 	text-align: center;
 	 border-style: solid;
     border-width: 5px;
+
 }
 
 /* text */
@@ -293,30 +293,111 @@ margin-top:-62px;
 
 /* music */
 
-#image{
-	background-image: url('../micemen.jpg');
-	height: 300px;
+/*hover image*/
+.urlImg {
 	width:300px;
-	background-repeat: no-repeat;
-	margin:0px 0px 0px 280px;
-	display: inline-block;
+	height:300px; 
 	background-size: 100% 100%;
+	display:inline-block;
+	background-image: url('../om&m.jpg'); 
+	margin-left: 300px;
+} 
+.urlImg:hover {
+ 	background-image: url('../om&mm.jpg'); 
+} 
+
+.urlImg2 {
+	width:300px;
+	height:300px; 
+	background-size: 100% 100%;
+	display:inline-block;
+	background-image: url('../tn.jpg'); 
+	
+} 
+.urlImg2:hover {
+ 	background-image: url('../tnn.jpg'); 
+} 
+
+
+/* mobile responsive*/
+html {
+	display:block;
 }
 
-#image2{
-	background-image: url('../ptv.jpg');
-	height: 300px;
-	width:300px;
-	background-repeat: no-repeat;
-	display: inline-block;
-	background-size: 100% 100%;
+.container{
+	width:960px;
+	margin:0px auto;
 }
 
-#image3{
-	background-image: url('../arcticmonkeys.jpg');
-	height: 300px;
-	width:300px;
-	background-repeat: no-repeat;
-	display: inline-block;
-	background-size: 100% 100%;
+@media screen and (max-width:959px){
+
+.container{
+	width:100%;
+}
+
+#nav{
+	width:100%;
+}
+
+#ul{
+	width:100%;
+}
+
+#div1{
+	width:100%;
+}
+
+#sec{
+	width:100%;
+}
+
+}
+
+
+@media screen and (max-width:320px){
+.container{
+	width:100%;
+}
+
+#nav{
+	width:250px;
+}
+
+
+#div1{
+	width:250px;
+
+}
+
+/* images index*/ 
+#sec{
+	width:250px;
+}
+#img{
+	width:250px;
+}
+
+#img2{
+	width:250px;
+}
+
+#img3{
+	width:250px;
+}
+
+#img4{
+	width:250px;
+}
+
+/* about me */ 
+
+
+#sec1{
+
+}
+
+#sec2{
+
+}
+
 }
