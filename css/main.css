@@ -127,7 +127,7 @@ body{
 
 /* images index*/
 #img{
-	background-image: url('../catdoe.jpg');
+	background-image: url('../towndoe.jpg');
 	height: 250px;
 	width:225px;
 	margin-top:20px;
@@ -137,7 +137,7 @@ body{
 }
 
 #img2{
-	background-image: url('../oceanpls.jpg');
+	background-image: url('../mdoe.jpg');
 	height: 250px;
 	width:225px;
 	margin-top:20px;
@@ -147,7 +147,7 @@ body{
 }
 
 #img3{
-	background-image: url('../freeway1.jpg');
+	background-image: url('../bridgedoe.jpg');
 	height: 250px;
 	width:225px;
 	margin-top:20px;
@@ -157,7 +157,7 @@ body{
 }
 
 #img4{
-	background-image: url('../blind.jpg');
+	background-image: url('../bdoe.jpg');
 	height: 250px;
 	width:225px;
 	margin-top:20px;
